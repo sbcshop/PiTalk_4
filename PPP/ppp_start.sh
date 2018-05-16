@@ -1,0 +1,1 @@
+sudo pppd call pitalk-ppp
