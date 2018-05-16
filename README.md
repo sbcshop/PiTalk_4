@@ -1,4 +1,4 @@
-# PiTalk_5
+# PiTalk_4
 
 Modular Smartphone on Raspberry Pi.
 
@@ -13,7 +13,7 @@ Modular Smartphone on Raspberry Pi.
 
 2. Your code will be downloaded to '/home/pi' directory. Use 'ls' command to check the list of directories.
 
-3. Go to directory 'PiTalk_5' and run the command to change the permissions:
+3. Go to directory 'PiTalk_4' and run the command to change the permissions:
    ```
    sudo chmod +x setup
    ```
@@ -23,33 +23,33 @@ Modular Smartphone on Raspberry Pi.
    ```
    It will reboot your Raspberry Pi
 
-4. Go to directoy 'PiTalk_5' and you will see there are two GUI files i.e. GUI5_Landscape.py and GUI5_Portrait.py. As its name indicates    it will create PiTalk GUI in Landscape and Portrait mode.
+4. Go to directoy 'PiTalk_4' and you will see there are two GUI files i.e. GUI4_Landscape.py and GUI4_Portrait.py. As its name indicates    it will create PiTalk GUI in Landscape and Portrait mode.
 
 5. Lets run the PiTalk code (Landscape or Portrait Mode). Open the terminal and write:
 
    For Raspberry Pi 3 or 3B+ use 'ttyS0' if PiTalk is connected through GPIO or 'ttyUSB3' if connected through USB
    ```
-   sudo python3 ./GUI5_Landscape.py ttyS0
+   sudo python3 ./GUI4_Landscape.py ttyS0
    ```
    For other version use 'ttyAMA0' if connected through GPIO or 'ttyUSB3' if connected throught USB
    or 
    ```
-   sudo python3 ./GUI5_Portrait.py ttyAMA0
+   sudo python3 ./GUI4_Portrait.py ttyAMA0
    ```
    **Note**: Default it will take 'ttyS0' port. It means if you simply write :
    ```
-   sudo python3 ./GUI5_Portrait.py
+   sudo python3 ./GUI4_Portrait.py
    ```
    or 
    ```
-   sudo python3 ./GUI5_Landscape.py
+   sudo python3 ./GUI4_Landscape.py
    ```
    It will also work but for Raspberry Pi 3 or 3B+ only.
    
-6. This will run PiTalk code on HDMI screen. If you want to run this code on 5" LCD, go to 'setting' app and go to 'Screen Orientation'.
-   You will see diffrent orientation at different angles. Click to any angle will reboot your Raspberry Pi and start GUI on 5" LCD.
+6. This will run PiTalk code on HDMI screen. If you want to run this code on 4" LCD, go to 'setting' app and go to 'Screen Orientation'.
+   You will see diffrent orientation at different angles. Click to any angle will reboot your Raspberry Pi and start GUI on 4" LCD.
    
-7. Now to run the PiTalk code on 5" LCD, repeat **Step 5** 
+7. Now to run the PiTalk code on 4" LCD, repeat **Step 5** 
 
 
 For more details, go to http://pitalk.co.uk/
