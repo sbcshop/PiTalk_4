@@ -8,7 +8,7 @@ Modular Smartphone on Raspberry Pi.
 
 1. Open Terminal and download the code by writing: 
    ```
-   git clone https://github.com/sbcshop/PiTalk_5.git
+   git clone https://github.com/sbcshop/PiTalk_4.git
    ```
 
 2. Your code will be downloaded to '/home/pi' directory. Use 'ls' command to check the list of directories.
