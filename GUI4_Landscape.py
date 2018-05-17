@@ -2517,7 +2517,7 @@ class CallSettingFrame(tk.Frame):
         """ Set call forwading """
         label = tk.Label(self, font = ("Helvetica", 15))
         if self.forwardnumber.get():
-            if phone.call_forwarding(self.forwardnumber.get()):
+            if phone.enableCallForwading(self.forwardnumber.get()):
                 label.config(text = "Enabled", bg = "yellow", fg = "black",
                              font = ("Helvetica", 15))
                 label.grid(row = 3, column = 0)
