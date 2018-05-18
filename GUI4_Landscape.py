@@ -2380,13 +2380,13 @@ class GUIRotateFrame(tk.Frame):
     def screenRotate(self, arg):
         """ Screen Rotate """
         if arg == 0:
-            subprocess.call(['./LCD4-show.sh','0'], cwd = path+'/LCD-show')
+            subprocess.call(['./LCD4-show','0'], cwd = path+'/LCD-show')
         elif arg == 90:
-            subprocess.call(['./LCD4-show.sh','90'], cwd = path+'/LCD-show')
+            subprocess.call(['./LCD4-show','90'], cwd = path+'/LCD-show')
         if arg == 180:
-            subprocess.call(['./LCD4-show.sh','180'], cwd = path+'/LCD-show')
+            subprocess.call(['./LCD4-show','180'], cwd = path+'/LCD-show')
         if arg == 270:
-            subprocess.call(['./LCD4-show.sh','270'], cwd = path+'/LCD-show')
+            subprocess.call(['./LCD4-show','270'], cwd = path+'/LCD-show')
 
 #############################  CallSettingFrame  ###############################
 class CallSettingFrame(tk.Frame):
