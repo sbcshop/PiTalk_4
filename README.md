@@ -2,7 +2,7 @@
 
 Modular Smartphone on Raspberry Pi.
 
-<img src="http://sb-components.co.uk/assets/images/portfolio/pitalk.png" width="300"><img src="http://pitalk.co.uk/images/apple-watch.png" width="300">
+<img src="http://sb-components.co.uk/assets/images/portfolio/pitalk.png" width="300">
 
 **Steps for PiTalk software installation -** 
 
