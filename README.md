@@ -2,7 +2,8 @@
 
 Modular Smartphone on Raspberry Pi.
 <p align="center">
-<img src="Icons/pitalk.png" width="300"></p>
+<img src="Icons/pitalk.png" width="300"><img src="http://pitalk.co.uk/images/apple-watch.png" width="300">
+</p>
 
 
 
