@@ -4,6 +4,8 @@ Modular Smartphone on Raspberry Pi.
 <p align="center">
 <img src="Icons/pitalk.png" width="300"></p>
 
+
+
 **Steps for PiTalk software installation -** 
 
 1. Open Terminal and download the code by writing: 
