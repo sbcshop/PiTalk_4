@@ -1,8 +1,8 @@
 # PiTalk_4
 
 Modular Smartphone on Raspberry Pi.
-
-<img src="http://sb-components.co.uk/assets/images/portfolio/pitalk.png" width="300">
+<p align="center">
+<img src="Icons/pitalk.png" width="300"></p>
 
 **Steps for PiTalk software installation -** 
 
